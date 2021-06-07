@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Rivera Vollmer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="typeWriter()">
+    <main class="grid-container">
+        <header class="grid-item" id="navbar">
+            <div class="svg-container">
+                <a href="index.html"><img src="img/logo_complete.svg" alt="javier rivera vollmer" class="logo"></a>
+            </div>
+            <div class="title-container" id="title-container">
+                <h1 id="current-title">Home</h1>
+                <a href="#home" id="x" class="x" onclick="toggleHome()">&#10005;</a>
+            </div>
+        </header>
+
+        <section class="grid-item" id="homescreen">
+            <p id="welcome"></p>
+            <p class="interactive" id="ready">
+                <a href="#home" id="link-home">Hi!</a>
+                <span class="mobile-breaker"><br></span>
+                <a href="#about" id="link-about" onclick="toggleAbout()">My name is Javier.</a>
+                <span class="mobile-breaker"><br></span>
+                <a href="#work" id="link-work" onclick="toggleWork()">I am a communication designer</a>
+                <a href="#location" id="link-city" onclick="toggleLocation()">from Berlin.</a>
+                <span class="mobile-breaker"><br></span>
+                <a href="#contact" id="link-contact" onclick="toggleContact()">Get in touch!</a>
+            </p>
+        </section>
+
+        <section class="grid-item" id="aboutscreen">
+            <article class="grid-item" id="portrait-container">
+                <img src="img/portrait.jpg" alt="portrait" class="img-portrait">
+            </article>
+            <article class="grid-item">
+                <h2>About me</h2>
+                <p>For over <span id="year"></span> years I have been working as a comminication designer. Driven by the fact that future design solutions will be technologically dependant, I've focused my work mostly on creative coding, physical computing
+                    and digital design in general. Therefore I am constantly expanding my knowledge about the newest technological breakthroughs and thinking about methods of implementing them into new smart creative solutions. I am firmly convinced that
+                    interdisciplinary teams are the key to an efficient and innovative output.
+                </p>
+            </article>
+            <article class="grid-item">
+                <h2>Short Résumé</h2>
+                <ul class="resume">
+                    <li><b>Since 2019</b><br>Marketing Designer<br><i>smartpatient gmbh</i></li>
+                    <li><b>Since 2018</b><br>Student of Communication Design<br><i>HTW Berlin</i></li>
+                    <li><b>Since 2018</b><br>Freelance graphic designer</li>
+                    <li><b>May – July 2018</b><br>Working student in graphic design<br><i>TU Munich</i></li>
+                    <li><b>2013 – 2018</b><br>Student of Physics<br><i>LMU Munich</i></li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="grid-item" id="workscreen">
+            <article>
+                <h2>Project 1</h2>
+                <img src="img/logo_short.svg" alt="" width="50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste in praesentium impedit placeat ad magnam nobis voluptatum quae quam dignissimos! Illo consequatur aliquam fugit officiis modi minima, numquam tenetur!</p>
+            </article>
+            <article>
+                <h2>Project 2</h2>
+                <img src="img/logo_short.svg" alt="" width="50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste in praesentium impedit placeat ad magnam nobis voluptatum quae quam dignissimos! Illo consequatur aliquam fugit officiis modi minima, numquam tenetur!</p>
+            </article>
+            <article>
+                <h2>Project 3</h2>
+                <img src="img/logo_short.svg" alt="" width="50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste in praesentium impedit placeat ad magnam nobis voluptatum quae quam dignissimos! Illo consequatur aliquam fugit officiis modi minima, numquam tenetur!</p>
+            </article>
+            <article>
+                <h2>Project 4</h2>
+                <img src="img/logo_short.svg" alt="" width="50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste in praesentium impedit placeat ad magnam nobis voluptatum quae quam dignissimos! Illo consequatur aliquam fugit officiis modi minima, numquam tenetur!</p>
+            </article>
+        </section>
+
+        <section class="grid-item" id="locationscreen">
+
+        </section>
+
+        <section class="grid-item" id="contactscreen">
+
+        </section>
+
+        <footer class="grid-item" id="bottom">
+            <a href="#" class="right">Legal Notice <span>&rarr;</span></a>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>
