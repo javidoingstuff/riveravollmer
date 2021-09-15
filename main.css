@@ -74,6 +74,7 @@ h2 {
 .x:hover {
     background-color: ghostwhite;
     border-radius: 50%;
+    transition: all 0.5s ease-in-out;
 }
 
 .interactive {
