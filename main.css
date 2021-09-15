@@ -69,7 +69,7 @@ h2 {
     padding: 5px 13px;
     margin: 0;
     color: ghostwhite;
-    transition: all 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .x:hover {
